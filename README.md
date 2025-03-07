@@ -4,6 +4,14 @@
 
 PHP, CSS, SQL SERVER, TYPESCRIPT
 
+🌍 Ubicación de Backend y Frontend
+
+🔹 Frontend:
+📂pasantes-main\colaboradores\src\pages\formColaborador\index.tsx
+
+🔹 Backend:
+📂pasantes-main\colaboradores\src\api\formColaborador.php
+
 ## 📌 Tablas en la Base de Datos
 
 1️⃣ **Tabla colaboradores**

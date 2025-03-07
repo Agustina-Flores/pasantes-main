@@ -395,12 +395,12 @@ if (!empty($cursos) && is_array($cursos)) {
             }
 
             $row = sqlsrv_fetch_array($stmt_check, SQLSRV_FETCH_ASSOC);
-sqlsrv_free_stmt($stmt_check);
-if ($row && isset($row["id"])) {
-    error_log("ID del curso encontrado: " . $row["id"]);
-} else {
-    error_log("No se encontró un curso existente con nombre: " . $curso["nombre"]);
-}
+                sqlsrv_free_stmt($stmt_check);
+                if ($row && isset($row["id"])) {
+                    error_log("ID del curso encontrado: " . $row["id"]);
+                } else {
+                    error_log("No se encontró un curso existente con nombre: " . $curso["nombre"]);
+                }
             if ($row) {
                
                 $sql_update = "UPDATE cursos 
