@@ -1,45 +1,57 @@
-🚀 Proyecto: Gestión de Colaboradores
+# 🚀 Proyecto: Gestión de Colaboradores
 
-📌 Tecnologías utilizadas
-PHP
-SQL Server
-REACT
+## 📌 Tecnologías utilizadas
 
-📌 1. Tabla colaboradores
-📌 2. Tabla experiencia_laboral
-📌 3. Tabla educacion
-📌 4. Tabla cursos
+PHP, CSS, SQL Server, TYPESCRIPT
+
+## 📌 Tablas en la base de datos
+
+1️⃣ **Tabla colaboradores**
+2️⃣ **Tabla experiencia_laboral**  
+3️⃣ **Tabla educacion**
+4️⃣ \*
+
+---
 
 🌍 Funcionalidades
 
-✅ 1. Insertar un colaborador
-![Colaborador](src/imagenesCapturas/1.jpg)
+### ✅ Inserción de datos
 
-✅ 2. Insertar experiencia laboral
-![Experiencia](src/imagenesCapturas/2.jpg)
+- 📌Insertar un colaborador
+  ![Colaborador](imagenesCapturas/1.jpg)
 
-✅ 3. Insertar educación
-![Educacion](src/imagenesCapturas/3.jpg)
+- 📌 Insertar experiencia laboral
+  ![Experiencia](imagenesCapturas/2.jpg)
 
-✅ 4. Insertar curso
-![Cursos](src/imagenesCapturas/4.jpg)
+- 📌 Insertar educación
+  ![Educacion](imagenesCapturas/3.jpg)
 
-📌INSERT Base de datos
-![Insert](src/imagenesCapturas/DB1.jpg)
+- 📌 Insertar curso
+  ![Cursos](imagenesCapturas/4.jpg)
 
-🔄 Actualización de Datos
+📌 **INSERT en Base de Datos**
 
-🖊️ 1. Actualizar datos del colaborador
-![Colaborador](src/imagenesCapturas/5.jpg)
+![Insert](imagenesCapturas/DB1.jpg)
 
-🖊️ 2. Actualizar experiencia laboral
-![Experiencia](src/imagenesCapturas/6.jpg)
+---
 
-🖊️ 3. Actualizar educación
-![Educacion](src/imagenesCapturas/7.jpg)
+## 🔄 Actualización de Datos
 
-🖊️ 4. Actualizar curso
-![Educacion](src/imagenesCapturas/8.jpg)
+### 🖊️ Modificación de registros
 
-📌UPDATE Base de datos
-![Update](src/imagenesCapturas/DB2.jpg)
+- 📌 Actualizar datos del colaborador
+  ![Colaborador](imagenesCapturas/5.jpg)
+
+- 📌 Actualizar experiencia laboral
+  ![Experiencia](imagenesCapturas/6.jpg)
+
+- 📌 Actualizar educación
+  ![Educacion](imagenesCapturas/7.jpg)
+
+- 📌 Actualizar curso
+  ![Educacion](imagenesCapturas/8.jpg)
+
+---
+
+📌 **UPDATE Base de datos**
+![Update](imagenesCapturas/DB2.jpg)
