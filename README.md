@@ -7,10 +7,10 @@ PHP, CSS, SQL SERVER, TYPESCRIPT
 🌍 Ubicación de Backend y Frontend
 
 🔹 Frontend:
-📂pasantes-main\colaboradores\src\pages\formColaborador\index.tsx
+📂colaboradores\src\pages\formColaborador\index.tsx
 
 🔹 Backend:
-📂pasantes-main\colaboradores\src\api\formColaborador.php
+📂colaboradores\src\api\formColaborador.php
 
 ## 📌 Tablas en la Base de Datos
 
