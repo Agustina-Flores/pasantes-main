@@ -2,9 +2,9 @@
 
 ## 📌 Tecnologías utilizadas
 
-PHP, CSS, SQL Server, TYPESCRIPT
+PHP, CSS, SQL SERVER, TYPESCRIPT
 
-## 📌 Tablas en la base de datos
+## 📌 Tablas en la Base de Datos
 
 1️⃣ **Tabla colaboradores**
 2️⃣ **Tabla experiencia_laboral**  
@@ -21,17 +21,16 @@ PHP, CSS, SQL Server, TYPESCRIPT
   ![Colaborador](./pasantes-main/colaboradores/src/imagenesCapturas/1.jpg)
 
 - 📌 Insertar experiencia laboral
-  ![Experiencia](imagenesCapturas/2.jpg)
+  ![Experiencia](./pasantes-main/colaboradores/src/imagenesCapturas/2.jpg)
 
 - 📌 Insertar educación
-  ![Educacion](imagenesCapturas/3.jpg)
+  ![Educacion](./pasantes-main/colaboradores/src/imagenesCapturas/3.jpg)
 
 - 📌 Insertar curso
-  ![Cursos](imagenesCapturas/4.jpg)
+  ![Cursos](./pasantes-main/colaboradores/src/imagenesCapturas/4.jpg)
 
 📌 **INSERT en Base de Datos**
-
-![Insert](imagenesCapturas/DB1.jpg)
+![Insert](./pasantes-main/colaboradores/src/imagenesCapturas/DB1.jpg)
 
 ---
 
@@ -40,18 +39,16 @@ PHP, CSS, SQL Server, TYPESCRIPT
 ### 🖊️ Modificación de registros
 
 - 📌 Actualizar datos del colaborador
-  ![Colaborador](imagenesCapturas/5.jpg)
+  ![Colaborador](./pasantes-main/colaboradores/src/imagenesCapturas/5.jpg)
 
 - 📌 Actualizar experiencia laboral
-  ![Experiencia](imagenesCapturas/6.jpg)
+  ![Experiencia](./pasantes-main/colaboradores/src/imagenesCapturas/6.jpg)
 
 - 📌 Actualizar educación
-  ![Educacion](imagenesCapturas/7.jpg)
+  ![Educacion](./pasantes-main/colaboradores/src/imagenesCapturas/7.jpg)
 
 - 📌 Actualizar curso
-  ![Educacion](imagenesCapturas/8.jpg)
-
----
+  ![Educacion](./pasantes-main/colaboradores/src/imagenesCapturas/8.jpg)
 
 📌 **UPDATE Base de datos**
-![Update](imagenesCapturas/DB2.jpg)
+![Update](./pasantes-main/colaboradores/src/imagenesCapturas/DB2.jpg)
