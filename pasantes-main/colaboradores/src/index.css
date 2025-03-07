@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", "Times New Roman", Times, serif, "Times New Roman",
+    Times, serif, "Gill Sans", "Gill Sans MT";
+}
+:root {
+  --color-transparente: #33353c00;
+  --color-sombra: drop-shadow(2px 2px 2px rgb(8, 8, 8));
+  --color-black: #33353c;
+  --color-sombreado: #071c66;
+  --color-red: #fa0606;
+  --color-green: #2ff308;
+  --color-white: #fff;
+  --color-celeste: #1399eda9;
+  --color-fondoBlanco: rgb(229, 233, 235);
+  --color-fondoDegradez: linear-gradient(
+    70deg,
+    var(--color-transparente),
+    var(--color-celeste)
+  );
+  --color-fondoDegradezImg: linear-gradient(
+      40deg,
+      rgba(255, 255, 255, 0.403),
+      #04a6bf
+    ),
+    url(../images/imgFrenteKinesia.jpeg);
+}
+
+body {
+  background: linear-gradient(
+      rgba(171, 215, 228, 0.5),
+      rgba(100, 133, 218, 0.582)
+    ),
+    url(imgColaboradores/fondo4.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* barra de desplazamiento*/
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: rgba(13, 96, 198, 0.62);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(34, 112, 202);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.contenedor{
+  padding: 2dvw;
+  text-align: center;
+  max-width: 1000px;
+  justify-self: center;
+  margin: auto;
+  color: white ;
+}
+.contenedorListas{
+  padding: 1dvw;
+  text-align: center;
+  justify-self: center;
+  margin: auto;
+  color: white ;
+}
+.politica{
+  text-align: start;
+  margin-top: 2dvh;
+}
+.contenedorInputCompartido {
+  display: grid;
+  grid-template-columns: 50% 45%;
+  margin: auto;
+  gap: 1rem;
+  
+}
+.input{
+  box-shadow: 0 4px 4px var(--color-black);
+}
+.botonEliminar{
+  width: 3rem !important;
+  position: relative;
+  left: 75% !important;
+  margin-top: -0.5rem !important;
+}
+.obligatorio{
+  color: #fa0606;
+}
+
+.botones{
+  background: linear-gradient(0deg, rgba(32, 73, 184, 0.299), rgba(59, 108, 221, 0.913)  ),  url(../src/imgColaboradores/fondo3.webp );
+  border-color: rgb(232, 234, 239);
+  font-size: 130%;
+  cursor: pointer;
+  text-align: center;
+  padding: 1vw;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  filter: drop-shadow(1px 1px 2px black);
+  -webkit-filter: drop-shadow(1px 1px 2px black);
+}
+.botones:hover{
+  filter: drop-shadow(0px 0px 0px black);
+  -webkit-filter: drop-shadow(0px 0px 0px black);
+  background-color: rgba(8, 144, 185, 0.433);
+  border-color: rgba(77, 118, 231, 0.66);
+}
+.track {
+  height: 15px;
+  border-radius:10px ;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -ms-border-radius:10px;
+  -o-border-radius:10px;
+  background: linear-gradient(0deg, rgba(32, 73, 184, 0.299), rgba(59, 108, 221, 0.913)  ),  url(../src/imgColaboradores/fondo3.webp );
+  overflow-x: hidden;
+}
+
+.thumb {
+margin-top: -5px;
+  width: 25px; /* Ancho del thumb */
+  height: 25px; /* Alto del thumb */
+  background: url('./imgColaboradores/logoplata.webp') no-repeat center; /* Cambia la ruta a tu imagen */
+  background-size: contain; 
+  border: none !important;
+}
+.rango{
+  width: 100%;
+  
+}
+.referenciaRango{
+  margin-top: 15px;
+}
+/* .checkbox-container {
+  display: flex;
+  align-items: center;
+} */
+
+.checkbox-container label {
+  cursor: pointer;
+  padding: 5px;
+  /* transition: background-color 0.2s;
+  -webkit-transition: background-color 0.2s;
+  -moz-transition: background-color 0.2s;
+  -ms-transition: background-color 0.2s;
+  -o-transition: background-color 0.2s; */
+}
+
+.checkbox-container label.active {
+  /* background-color: #007bff;  */
+  color: rgb(21, 13, 240); /* Cambia el color del texto cuando está activo */
+  border-radius: 5px; /* Redondea los bordes */
+}
+.titulo{
+  text-shadow: 1px 1px 5px var(--color-sombreado);
+  margin-top: 3rem;
+}

@@ -1,0 +1,28 @@
+.grupo {
+    display: grid;
+    grid-template-columns: 15% 35% 35% 15%;
+    background: var(--color-fondoDegradez);
+    margin: 1dvh 0dvh;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    box-shadow: 2px 2px 4px var(--color-sombreado);
+  }
+.imgPerfil{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 10dvw;
+    max-width: 100px;
+    margin-bottom: 5px;
+}
+.contenedorListas{
+    margin: 0dvw;
+    max-width: 100dvw;
+}
