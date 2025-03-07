@@ -9,7 +9,7 @@ PHP, CSS, SQL Server, TYPESCRIPT
 1️⃣ **Tabla colaboradores**
 2️⃣ **Tabla experiencia_laboral**  
 3️⃣ **Tabla educacion**
-4️⃣ \*
+4️⃣ **Tabla cursos**
 
 ---
 
@@ -18,7 +18,7 @@ PHP, CSS, SQL Server, TYPESCRIPT
 ### ✅ Inserción de datos
 
 - 📌Insertar un colaborador
-  ![Colaborador](imagenesCapturas/1.jpg)
+  ![Colaborador](./pasantes-main/colaboradores/src/imagenesCapturas/1.jpg)
 
 - 📌 Insertar experiencia laboral
   ![Experiencia](imagenesCapturas/2.jpg)
